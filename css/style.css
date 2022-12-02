@@ -82,7 +82,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 7%;
+  padding: 1.5rem 7%;
   border-bottom: var(--border);
   position: fixed;
   top: 0;
@@ -295,6 +295,8 @@ section {
 }
 
 
+
+/*----------------End about Style-----------------------*/
 
 
 
