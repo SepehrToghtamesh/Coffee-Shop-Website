@@ -536,33 +536,33 @@ section {
 }
 
 .blogs .box-container .box:hover .image img {
- transform: scale(1.2);
+  transform: scale(1.2);
 }
 
-.blogs .box-container .box .content{
+.blogs .box-container .box .content {
   padding: 2rem;
 }
 
 
-.blogs .box-container .box .title{
+.blogs .box-container .box .title {
   font-size: 2.5rem;
   line-height: 1.5;
   color: #fff;
 }
 
-.blogs .box-container .box .content .title:hover{
+.blogs .box-container .box .content .title:hover {
   color: var(--main-color);
 }
 
-.blogs .box-container .box .content span{
+.blogs .box-container .box .content span {
   color: var(--main-color);
-  display:block ;
+  display: block;
   padding-top: 1rem;
   font-size: 2rem;
 }
 
 
-.blogs .box-container .box .content p{
+.blogs .box-container .box .content p {
   font-size: 1.6rem;
   line-height: 1.8;
   color: #ccc;
@@ -572,6 +572,66 @@ section {
 
 
 /*----------------End blogs Style-----------------------*/
+
+
+.footer {
+  background: var(--black);
+  text-align: center;
+}
+
+.footer .share {
+  padding: 1rem 0;
+}
+
+.footer .share a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: #fff;
+  border: var(--border);
+  margin: .3rem;
+  border-radius: 50%;
+}
+
+.footer .share a:hover{
+  background-color: var(--main-color);
+}
+
+
+.footer .links{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  gap: 1rem;
+}
+
+
+.footer .links a{
+  padding: .7rem 2rem;
+  color: #fff;
+  border: var(--border);
+  font-size: 2rem;
+}
+
+.footer .links a:hover{
+  background: var(--main-color);
+}
+
+.footer .credit{
+  font-size: 2rem;
+  color: #fff;
+  font-weight: lighter;
+  padding: 1.5rem;
+}
+
+.footer .links span{
+  color: var(--main-color);
+}
+
+
+/*----------------End footer Style-----------------------*/
 
 
 
